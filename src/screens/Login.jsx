@@ -28,7 +28,7 @@ export const Login = () => {
   const submithandler = () => {
     dispatch(AuthRepo.login({userLogin}));
   };
-  //ha isme jo wihslist  m heart bnaya vo toggele ha y dusra h phi
+
   return (
     <View>
       <Text
@@ -106,12 +106,7 @@ export const Login = () => {
         </Text>
         <Text
           onPress={() => {
-            navigation.navigate('SignUp'); //kya krna h drawer vala ap batiye apko konsa krna hain side navigation ok
-            //kal mne background pictures dene ka socha login signup m but image to aai content sara chip gya imageBackground use kiya tha
-            //mne alag se ek component bna k add krne ka try kiya tha acha phle y side navigation krte h ok
-            //ap yeah code dekh ke implement krne ki kosis kariye
-            //tj bahut ujhan ho rahin hain kya hua call kro nzhi todidrr main krata hun acha ap akriye na drawer age
-            //alag screen bnau haan y complete copy kru  nahi
+            navigation.navigate('SignUp');
           }}
           style={{marginTop: 20, width: 150, fontSize: 20}}>
           Not Registered?

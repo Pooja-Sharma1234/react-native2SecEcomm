@@ -41,7 +41,7 @@ const WishListScreen = ({navigation}) => {
             <TouchableOpacity
               onPress={() => handleRemove(item.id)}
               style={styles.removeButton}>
-              <Text style={styles.removeText}>Remove</Text> 
+              <Text style={styles.removeText}>Remove</Text>
             </TouchableOpacity>
           </View>
         );

@@ -35,8 +35,7 @@ export class AuthRepo {
         });
       }
     };
-  } //nhi acha ha toh agr mtlb y hi tha bs header dalna tha or but vo to apne aap hi aayaok acha ab yha header p drawer add krna h
-
+  }
   static updateUser(user) {
     return async dispatch => {
       try {
@@ -85,7 +84,3 @@ export class AuthRepo {
     };
   }
 }
-//agr maine yaha return likh diya to mtlb line 17 se age nahi jayega yahi code run hona band ho ajyega
-//toh problem kya thi  acha or ek bar y btao ki jo hum wishlist vala kr rhe the usme icon ka color kse chng kre
-//apke pass ek array hogi wishlist ki to umsse se check kr lisye agr woh item array main hain toh red color aye wrna black acha haan
-//ok try krti hu ok aur koi issue hain kya jo puchna ho apko abhi to yhi tha ok ok ok ap age kariye ha ok

@@ -12,18 +12,7 @@ const ProductDetail = () => {
   const navigation = useNavigation();
   const route = useRoute();
   const {WishListItem} = useSelector(state => state.wish);
-  //fixho gaya kya tj checkkariye    ho gya pr ok y jab hum home p click krte h toh direct home p ku ni aata y btao na
-  //ok s/am/jh gaya do baar tap krna padta hain na ha phle productdetail p aata  h phir home
-  // abhi ap ayse hi kariye wrna uske liye listner lana padega acha haan wrna cart item modal main dikhate hain yaha pr abhi ayse kaamm chla sakten hain
-  //acha company m pucha toh ki y nhi kiya kya phle toh aj tak kisis se aya puchnahi but usse koi issue nahi
-  //ok tusi kh rhe ho to man lete h ok ji ab ap age kariye acha meri shaeri vo kon sunaega acha ji
-  //likh dun ki bol ke sunai phir bol k ok call ?
-  //ek sec ok hm kro ha acha koi ni thoda bhtaka lo hihi oho bs 4 line vaah vaah kya bat h y mujhe likh k bhjna uspe vo kya khrida tha aapne jispe teacher ji likh k bhja tha
-  //ha uspe acha page p do bs are m mere pas rkhungi oye hoye bs bs rulaoge kyavaah aap to pkke vale hayr hogye h
-  //vse y mere vali kha se copy ki mujhe h ese kse copy ki ha to mtlb y kudh likhi ok ok hmm dukh bhri daasta jyada h
-  //chlo to abhi bhjo mujhe or tbiyat thik? ok bs ek hi likhi or likhte na m kl se wait kr rhi thi itni jldi khtam krdi
-  //ha ha hmare liye to itna hi bnega baki to drd bhar niklta h coding m to h hi
-  //bore ho jate h ek hi kam se
+
   const addTocartHnadler = () => {
     dispatch(Cartrepo.addToCart(route?.params?.data));
   };
